@@ -46,11 +46,11 @@
                 <p><strong>GitHub:</strong> <a href="https://github.com/nitingoley/ai-resume-builder" target="_blank">View on GitHub</a></p>
             </div>
 
-            <!-- E-commerce Project -->
+            <!-- Food Delivery Project -->
             <div class="project">
-                <h3>2.Food Delivery Web Application</h3>
-                <img src="./food.png" alt="E-commerce Project" class="project-image">
-                <p><strong>Description:</strong> Developed a full-stack e-commerce platform with product browsing, cart management, and secure payments.</p>
+                <h3>2. Food Delivery Web Application</h3>
+                <img src="./food.png" alt="Food Delivery Project" class="project-image">
+                <p><strong>Description:</strong> Developed a full-stack food delivery platform with browsing, cart management, and secure payments.</p>
                 <p><strong>Technologies:</strong> React.js, Node.js, Express.js, MongoDB, Stripe API</p>
                 <p><strong>Key Features:</strong></p>
                 <ul>
@@ -61,7 +61,7 @@
                 <p><strong>GitHub:</strong> <a href="https://github.com/nitingoley/e-commerce-mern-stack" target="_blank">View on GitHub</a></p>
             </div>
 
-            <!-- Authentication System Project -->
+            <!-- Advanced Authentication System Project -->
             <div class="project">
                 <h3>3. Advanced Authentication System</h3>
                 <img src="/Screenshot 2024-10-20 182050.png" alt="Advanced Authentication System" class="project-image">
@@ -76,25 +76,62 @@
                 <p><strong>GitHub:</strong> <a href="https://github.com/nitingoley/Advance-Auth" target="_blank">View on GitHub</a></p>
             </div>
 
-            <!-- Hotel Booking System Project -->
+            <!-- Virtual Assistant Project -->
             <div class="project">
-              <h3>1. Virtual Assistant (Jennifer)</h3>
-              <img src="./ai.png" alt="E-commerce Project" class="project-image">
-              <p><strong>Description:</strong> Developed a virtual assistant powered by AI that can respond to user queries and perform actions based on third-party APIs, including weather updates, news fetching, and more.</p>
-              <p><strong>Technologies:</strong> Node.js, MongoDB, Dialogflow, Express.js</p>
-              <p><strong>Key Features:</strong></p>
-              <ul>
-                  <li>Integrated voice commands and text-based input handling for diverse user interactions.</li>
-                  <li>Connected APIs for weather, news, and more, making the assistant versatile.</li>
-                  <li>Optimized performance for real-time response and processing using efficient database queries.</li>
-              </ul>
-              <p><strong>GitHub:</strong> <a href="https://github.com/nitingoley/Virtual-Assistant">View on GitHub</a></p>
-          </div>
+                <h3>4. Virtual Assistant (Jennifer)</h3>
+                <img src="./ai.png" alt="Virtual Assistant Project" class="project-image">
+                <p><strong>Description:</strong> Developed a virtual assistant powered by AI that can respond to user queries and perform actions based on third-party APIs, including weather updates, news fetching, and more.</p>
+                <p><strong>Technologies:</strong> Node.js, MongoDB, Dialogflow, Express.js</p>
+                <p><strong>Key Features:</strong></p>
+                <ul>
+                    <li>Integrated voice commands and text-based input handling for diverse user interactions.</li>
+                    <li>Connected APIs for weather, news, and more, making the assistant versatile.</li>
+                    <li>Optimized performance for real-time response and processing using efficient database queries.</li>
+                </ul>
+                <p><strong>GitHub:</strong> <a href="https://github.com/nitingoley/Virtual-Assistant" target="_blank">View on GitHub</a></p>
+            </div>
+
+            <!-- Food Recipe Web App Project -->
+            <div class="project">
+                <h3>5. Food Recipe Web App</h3>
+                <video src="./Flonnect_2024-11-02_b115a2c6-3ad2-484a-b7f4-21f5f90a375a.mp4" class="project-image" autoplay ></video>
+                <p><strong>Description:</strong> Created a full-stack web application to explore, add, and manage food recipes, allowing users to discover various cuisines and cooking methods.</p>
+                <p><strong>Technologies:</strong> PostgreSQL, Express.js, React.js, Node.js (PERN Stack)</p>
+                <p><strong>Key Features:</strong></p>
+                <ul>
+                    <li>User-friendly recipe search and filtering options.</li>
+                    <li>Recipe submission and editing features.</li>
+                    <li>Database integration with PostgreSQL for recipe storage and management.</li>
+                </ul>
+                <p><strong>GitHub:</strong> <a href="https://github.com/nitingoley/Food-Recipe-App-using-PERN-Stack" target="_blank">View on GitHub</a></p>
+            </div>
         </div>
 
         <!-- CV Download Button -->
-        <a href="myCvup.docx" class="download-cv" download>Download CV</a>
-                <!-- myCvup.docx -->
+        <a href="nitingoley-dev.pdf" class="download-cv" download>Download CV</a>
+
+        <!-- Message Section -->
+        <div class="message-section">
+            <h3>Send Me a Message</h3>
+            <form 
+                action="mailto:nitingoley42@gmail.com" 
+                method="POST" 
+                enctype="text/plain"
+                onsubmit="alert('Your email client will open to complete the message.');"
+            >
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+        
     </div>
 
     <script src="script.js"></script>
